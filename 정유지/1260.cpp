@@ -3,8 +3,8 @@
 #include <algorithm>
 using namespace std;
 
-vector<vector<int>> graph;  // 인접 리스트 벡터
-vector<bool> visited;  // 방문 여부 벡터
+vector<vector<int>> graph;
+vector<bool> visited;  
 
 // 깊이 우선 탐색 함수
 void dfs(int v){

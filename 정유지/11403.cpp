@@ -21,7 +21,7 @@ int main()
         }
     }
 
-    // 플로이드 와샬 알고리즘
+    // i에서 j로 가는 경로가 있는지 확인하는 와샬 알고리즘
     for(int k = 0; k < n; k++)
         for(int i = 0; i < n; i++)
             for(int j = 0; j < n; j++)

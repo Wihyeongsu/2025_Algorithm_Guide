@@ -24,7 +24,7 @@ int main() {
     cin >> S >> E;
 
     vector<int> D(N + 1, MAX);
-    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<>> pq;
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<>> pq; // 우선순위 큐
 
     D[S] = 0;
     pq.push({0, S});
